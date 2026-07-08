@@ -1,0 +1,12 @@
+target/
+*.class
+.mvn/
+mvnw
+mvnw.cmd
+.DS_Store
+.vscode/
+.idea/
+*.log
+node_modules/
+dist/
+.angular/
