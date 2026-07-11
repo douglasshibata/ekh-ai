@@ -42,3 +42,26 @@ Em vez de pesquisar manualmente em sistemas isolados, o usuário faz uma pergunt
 
 ## Licença
 Proprietário / Enterprise
+
+---
+
+## 🛠️ Project Deep Dive & Technical Guide
+
+### 🎯 Main Purpose
+Corporate Knowledge Hub using dynamic Multi-Agent RAG architectures.
+
+### 🧰 Tecnologias Utilizadas (Tech Stack)
+- **Primary Technologies:** Angular 19.2.2, Docker / Docker Compose, Java 21, Maven, Node.js / npm, Spring Boot 3.4.3
+- **Deployment Strategy:** Container-ready with standard Docker/Docker Compose integrations where applicable.
+
+### 🚀 Como Implantar e Executar (How to Deploy & Run)
+#### Backend (Java / Spring Boot)
+1. Navigate to the backend directory.
+2. Compile and run: `./mvnw spring-boot:run` or `mvn spring-boot:run`.
+
+#### Frontend (Angular / Node.js)
+1. Navigate to the frontend directory.
+2. Install dependencies: `npm install`.
+3. Run development server: `npm start` or `npm run dev`.
+
+---
