@@ -6,9 +6,17 @@ Guia passo a passo para configuração, inicialização, execução de testes e 
 
 ## 🛠️ 1. Visão Geral e Arquitetura
 
-O **Enterprise Knowledge Hub** é uma plataforma de Inteligência Artificial Corporativa que centraliza todo o conhecimento de uma organização. - Visão Geral - Funcionalidades
+O **Enterprise Knowledge Hub** é uma plataforma de Inteligência Artificial Corporativa que centraliza todo o conhecimento de uma organização através de agentes RAG especializados.
 
-- **Tecnologias Principais:** Java / Spring Boot / Quarkus
+### Estratégia de Ingestão de Dados por Fases:
+1. **Fase 1 - Engenharia & TI (`TiAgent`):**
+   - Base semente: `ekh-ai/data/seeds/engineering_playbook.md`.
+   - Foco: Padrões de arquitetura, contratos de APIs, esteiras CI/CD e runbooks operacionais de troubleshooting.
+2. **Fase 2 - Onboarding & RH (`HrAgent`):**
+   - Base semente: `ekh-ai/data/seeds/hr_onboarding_guide.md`.
+   - Foco: Acolhimento nos primeiros 90 dias, benefícios, registro de ponto, políticas de férias e código de conduta.
+
+- **Tecnologias Principais:** Java 21 / Spring Boot 3.4+ / Angular 19+ / Qdrant / OpenSearch
 - **Diretório do Módulo:** `ekh-ai`
 
 ---

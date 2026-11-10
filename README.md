@@ -16,7 +16,10 @@ Em vez de pesquisar manualmente em sistemas isolados, o usuário faz uma pergunt
 
 ## ✨ Principais Funcionalidades
 - **Busca Híbrida Inteligente:** Combinação de busca vetorial (Qdrant) e textual (OpenSearch).
-- **Agentes Especializados:** Contextos específicos para RH, Jurídico, Financeiro e TI.
+- **Agentes Especializados:** Contextos específicos para Engenharia/TI (`TiAgent`), RH/Onboarding (`HrAgent`), Jurídico, Financeiro e Comercial.
+- **Estratégia de Adoção em Duas Fases:**
+  - **Fase 1 (Engenharia & TI):** Ingestão do *Playbook de Engenharia & Arquitetura* (`engineering_playbook.md`) para reduzir MTTR, acelerar troubleshooting e documentar runbooks e APIs.
+  - **Fase 2 (Onboarding & RH):** Ingestão do *Manual de Acolhimento e Integração* (`hr_onboarding_guide.md`) para reduzir time-to-productivity de novos talentos e democratizar regras de benefícios, férias e conduta.
 - **Conectores de Dados:** Integração com SharePoint, SAP e bancos SQL.
 - **OCR Inteligente:** Extração de texto via Apache Tika.
 
